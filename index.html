@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>testimonial-project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./testemonial.css" />
+  </head>
+  <body>
+    <h1>testimonials</h1>
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+      <div class="testemonial-text text1">
+        <h2>Abdul-Malik</h2>
+        <h3>-Full Stack Developer-</h3>
+        <img src="" alt="" />
+        <p>
+          Uthmaan is an honest and trustworthy person. Ask him for a hand and
+          he'll give you his arm.
+        </p>
+      </div>
+      <div class="testemonial-text text2">
+        <h2>Ayyoob Slamdien</h2>
+        <h3>-His King-</h3>
+        <p>
+          Uthmaan is a true comrad, a loyal follower and a fine gentleman. I am
+          proud to have him by my side.
+        </p>
+      </div>
+      <div class="testemonial-text text3">
+        <h2>Gideon</h2>
+        <h3>-Dragoonix "King of Conquerers"-</h3>
+        <p>
+          He is a guy with a big heart. he assists those who ask, without
+          hesitation. He is a conquerer of hearts and minds.
+        </p>
+      </div>
+    </div>
+
+    <!-- script tags under here -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          items: 1,
+          margin: 50,
+          loop: true,
+          stagePadding: 100,
+          dots: false,
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>
